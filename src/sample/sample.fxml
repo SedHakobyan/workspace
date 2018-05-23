@@ -4,6 +4,7 @@
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ProgressIndicator?>
 <?import javafx.scene.effect.Blend?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
@@ -27,6 +28,7 @@
             <Insets />
          </opaqueInsets>
       </Button>
-      <ProgressBar fx:id="progress" layoutX="233.0" layoutY="220.0" prefWidth="200.0" progress="0.0" />
+      <ProgressBar fx:id="progress" layoutX="233.0" layoutY="220.0" nodeOrientation="LEFT_TO_RIGHT" opacity="0.51" prefWidth="200.0" progress="0.0" visible="false" />
+      <ProgressIndicator fx:id="progind" layoutX="269.0" layoutY="271.0" prefHeight="72.0" prefWidth="106.0" progress="0.03" visible="false" />
    </children>
 </AnchorPane>
