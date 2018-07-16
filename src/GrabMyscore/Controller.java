@@ -1,16 +1,15 @@
-package sample;
+package GrabMyscore;
 
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
-import com.gargoylesoftware.htmlunit.javascript.host.Element;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.ProgressBar;
-import javafx.scene.control.ProgressIndicator;
-import javafx.scene.input.MouseEvent;
-import net.sourceforge.htmlunit.cyberneko.HTMLElements;
+import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.AnchorPane;
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
@@ -19,61 +18,88 @@ import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import GrabMyscore.pojo.Gbs;
 
-import javax.swing.*;
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
+import java.util.StringTokenizer;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
+
+import static org.apache.log4j.Logger.getLogger;
 
 public class Controller {
     private static String css_team_name="#flashscore > div.team-primary-content > div.home-box.logo-enable > div.team-text.tname-home > div > div > a";
     private String team_name;
     private ArrayList <String> complect =new ArrayList<String>(); //each element is  team name|bookmaker|status;
+    private ObservableList<Gbs> gbsData = FXCollections.observableArrayList();
     @FXML
     private Button Trade;
     @FXML
     private Button data;
     @FXML
+    private Button Back;
+    @FXML
     private ProgressBar progress=new ProgressBar();
     @FXML
     private ProgressIndicator progind =new ProgressIndicator(0);
     @FXML
+    private  TableView <Gbs> table = new TableView<>(gbsData);
+    @FXML
+    private TableColumn <Gbs,String> Team;
+    @FXML
+    private TableColumn <Gbs,String> Bookmaker;
+    @FXML
+    private TableColumn <Gbs,String> Blocked;
+   @FXML
+   private AnchorPane mainpanel;
+   private static final  Logger loger_= getLogger(Controller.class);
 
-        private void ClickBtn() {
+
+    @FXML
+    private void ClickBtn() {
+
 
        // progress.setVisible(true);
+
         progind.setVisible(true);
+        Trade.setVisible(false);
         Task<Void> task = new Task<Void>(){
             @Override
 
             public Void call() throws Exception {
+                 // fill_tb();
+                complect.clear();
+                    //System.out.println("xcvbn");
+                    String pathphantom = Main.class.getResource("pic/phantomjs.exe").getFile();
 
-                    System.out.println("xcvbn");
+                ClassLoader classLoader = getClass().getClassLoader();
+               File file = new File(classLoader.getResource("GrabMyscore/pic/phantomjs.exe").getFile());
+
+             //  FileUtils.writeStringToFile(new File("d:/phantom_log.txt"), file.getPath()); //write to log
+
+
+
+                  //  System.out.println("path ="+ pathphantom);
                     DesiredCapabilities caps = new DesiredCapabilities();
                     caps.setBrowserName("TTUJur");
                     caps.setJavascriptEnabled(true);
                     caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
-                            "C:\\Users\\SedHakobyan\\Desktop\\phantomjs.exe");
+                            file.getPath()); //"C:\\Users\\SedHakobyan\\Desktop\\phantomjs.exe");
+
 
                     WebDriver mydrv = new PhantomJSDriver(caps);
 
                     mydrv.get("https://www.myscore.com.ua/");
                     mydrv.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
-                    //WebElement elo = mydrv.findElement(By.cssSelector("td.cell_sa.score")); //#g_1_zmlHDRz3 > td.cell_sa.score
-                    //WebElement elo = mydrv.findElements(By.cssSelector("td.cell_sa.score")).get(2);
                     mydrv.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
                     int games = mydrv.findElements(By.cssSelector("td.cell_sa.score")).size();
-                    System.out.println("tag name =" + "size = " + mydrv.findElements(By.cssSelector("td.cell_sa.score")).size());
+                  //  System.out.println("tag name =" + "size = " + mydrv.findElements(By.cssSelector("td.cell_sa.score")).size());
 
-                    for (int i=0;i<mydrv.findElements(By.cssSelector("td.cell_sa.score")).size();i++)
+                    for (int i=14;i<27;i++)
                     {
                         mydrv.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
-                        FileUtils.copyFile(((TakesScreenshot) mydrv).getScreenshotAs(OutputType.FILE), new File("d:\\myscore.com.ua.jpeg"));
+                       // FileUtils.copyFile(((TakesScreenshot) mydrv).getScreenshotAs(OutputType.FILE), new File("d:\\myscore.com.ua.jpeg"));
                         WebElement elo = mydrv.findElements(By.cssSelector("td.cell_sa.score")).get(i);
 
                         elo.click();
@@ -103,10 +129,12 @@ public class Controller {
                             mydrv.switchTo().window(hw.get(1));
                             mydrv.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
                             //complect.add(mydrv.findElement(By.cssSelector(css_team_name)).getText()+"|");
-                            //team_name = mydrv.findElement(By.cssSelector(team_name)).getText();
+                            FileUtils.copyFile(((TakesScreenshot) mydrv).getScreenshotAs(OutputType.FILE), new File("d:\\myscore.com.ua.team_name.jpeg"));
+                            team_name = mydrv.findElement(By.cssSelector(css_team_name)).getText();
                             //mydrv.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-                            FileUtils.copyFile(((TakesScreenshot) mydrv).getScreenshotAs(OutputType.FILE), new File("d:\\myscore.com.ua.jpeg" +"sed"));
+                           // FileUtils.copyFile(((TakesScreenshot) mydrv).getScreenshotAs(OutputType.FILE), new File("d:\\myscore.com.ua.jpeg" +"sed"));
                             wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(css_team_name)));
+                            loger_.info("team name = "+ mydrv.findElement(By.cssSelector(css_team_name)).getText());
                             System.out.println("team name = "+ mydrv.findElement(By.cssSelector(css_team_name)).getText());
                             String css ="#a-match-odds-comparison";
                             if (isElementPresentBycss(css,mydrv)) {
@@ -121,9 +149,9 @@ public class Controller {
                                 }
 
 
-                                FileUtils.copyFile(((TakesScreenshot) mydrv).getScreenshotAs(OutputType.FILE), new File("d:\\myscore.com.ua.jpeg" + 6));
+                              //  FileUtils.copyFile(((TakesScreenshot) mydrv).getScreenshotAs(OutputType.FILE), new File("d:\\myscore.com.ua.jpeg" + 6));
 
-                                //WebElement part = mydrv.findElement(By.cssSelector("#odds_1x2 > tbody > tr"));
+
                                 for (WebElement el : mydrv.findElements(By.cssSelector("#odds_1x2 > tbody > tr"))) {
 
                                     // System.out.println("root element text = " + part.findElement(By.cssSelector("td.kx > span")).getAttribute("class").toString()); //System.out.println("root element text = "+ mydrv.findElement(By.cssSelector("#odds_1x2 > tbody > tr:nth-child(2) > td.bookmaker > div > a")).getAttribute("title").toString()+ "|||| "+ mydrv.findElement(By.cssSelector("#odds_1x2 > tbody > tr:nth-child(2) > td.kx > span")).getAttribute("class").toString() );
@@ -137,11 +165,11 @@ public class Controller {
                             }
 
 
-                            System.out.println("tpel i="+i);
+                           // System.out.println("tpel i="+i);
                             mydrv.switchTo().window(hw.get(1)).close();
                             mydrv.switchTo().window(hw.get(0));
 
-                        } catch (IOException e)
+                        } catch (Exception e)
 
                         {
                             e.printStackTrace();
@@ -153,11 +181,20 @@ public class Controller {
 
 
                 mydrv.close();
+
                 Runtime.getRuntime().exec("taskkill /F /IM phantomjs.exe");
 
                 progind.setVisible(false);
+
                 //progress.setVisible(false);
-                get_data();
+
+                get_from_complect();
+                //get_data();
+                table.setVisible(true);
+                Back.setVisible(true);
+
+                Trade.setVisible(false);
+
                 return null;
             }
         };
@@ -170,6 +207,7 @@ public class Controller {
     @FXML
     private void get_data ()
     {
+        System.out.println("in func get_data");
         for (int i=0;i<complect.size();i++)
         {
             System.out.println("game ="+complect.get(i));
@@ -192,7 +230,8 @@ public class Controller {
 
         }
 catch (ElementNotFoundException e) {
-    System.out.println("Element chka");
+    loger_.info("Elements is absent");
+            System.out.println("Element chka");
             flag =false;
 
 }
@@ -204,6 +243,14 @@ catch (Exception  e)
 return flag;
      }
 
+     @FXML
+     private void Backclick ()
+     {
+         gbsData.clear();
+         Back.setVisible(false);
+         table.setVisible(false);
+         Trade.setVisible(true);
+     }
 
 
     private String get_bookStatus (WebElement element)
@@ -213,12 +260,50 @@ return flag;
         int size= element.findElements(By.cssSelector("td.kx > span")).size();
         WebElement le = element.findElement(By.cssSelector("td.kx > span"));
 
-       if (le.getAttribute("class").toString().compareToIgnoreCase("not-published odds-wrap  down")==0)
-           return bookmaker+"|"+ "blocked";
+       if (le.getAttribute("class").toString().contains("not-published"))
+           return bookmaker +"|"+ "blocked";
 
         return "none"; // element.findElement(By.cssSelector("td.kx > span")).getAttribute("class").toString();
 
     }
+
+    private void get_from_complect()
+    {
+        for (int i=0;i<complect.size();i++)
+            fill_tb(complect.get(i));
+
+    }
+
+
+    private void fill_tb(String team_row)
+
+    {
+
+        //String s ="inter|betfair|yes";
+        String part1;
+        String part2;
+        String part3;
+      StringTokenizer token= new  StringTokenizer (team_row,"|");
+      if (token.countTokens()==3)
+      {
+          part1=token.nextToken();
+          part2=token.nextToken();
+          part3=token.nextToken();
+      }
+
+         else {
+          throw new Error ("No enough token");
+      }
+
+        Gbs gbs =new Gbs(part1,part2,part3);
+        gbsData.add(gbs);
+        Team.setCellValueFactory(new PropertyValueFactory<Gbs, String>("tname"));
+        Bookmaker.setCellValueFactory(new PropertyValueFactory<Gbs,String>("bookname"));
+        Blocked.setCellValueFactory(new PropertyValueFactory<Gbs,String>("status"));
+        table.setItems(gbsData);
+
+    }
+
 
 }
 

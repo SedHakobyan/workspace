@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainpanel" cache="true" prefHeight="470.0" prefWidth="680.0" style="-fx-background-size: cover;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GrabMyscore.Controller">
+   <effect>
+      <Blend />
+   </effect>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+   <children>
+      <Button fx:id="Trade" layoutX="293.0" layoutY="165.0" mnemonicParsing="false" onAction="#ClickBtn" opacity="0.37" prefHeight="33.0" prefWidth="113.0" style="-fx-border-radius: 6; -fx-background-insets: 6;" text="GoTrade">
+         <cursor>
+           <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial Italic" size="18.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <ProgressBar fx:id="progress" layoutX="233.0" layoutY="220.0" maxHeight="400" maxWidth="640" nodeOrientation="LEFT_TO_RIGHT" opacity="0.51" prefWidth="200.0" progress="0.0" visible="false" />
+      <ProgressIndicator fx:id="progind" layoutX="287.0" layoutY="271.0" prefHeight="72.0" prefWidth="132.0" progress="0.03" visible="false" />
+      <TableView fx:id="table" layoutX="-2.0" layoutY="-3.0" prefHeight="201.0" prefWidth="276.0" visible="false">
+        <columns>
+          <TableColumn id="Team" fx:id="Team" prefWidth="112.0" text="Team" />
+          <TableColumn id="Bookmaker" fx:id="Bookmaker" prefWidth="96.0" text="Bookmaker" />
+            <TableColumn id="Blocked" fx:id="Blocked" prefWidth="66.0" text="Blocked" />
+        </columns>
+      </TableView>
+      <Button fx:id="Back" layoutX="-2.0" layoutY="198.0" mnemonicParsing="false" onAction="#Backclick" opacity="0.44" prefHeight="25.0" prefWidth="48.0" text="Back" visible="false" />
+   </children>
+</AnchorPane>
