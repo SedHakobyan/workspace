@@ -13,7 +13,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        FileUtils.forceDelete(FileUtils.getFile("logScraping"));
+        //FileUtils.forceDelete(FileUtils.getFile("logScraping"));
         Parent root = FXMLLoader.load(getClass().getResource("ContainerUI.fxml"));
 
         primaryStage.setTitle("Grow");
@@ -30,6 +30,8 @@ public class Main extends Application {
         primaryStage.setOnCloseRequest(event -> {
             try {
                 Runtime.getRuntime().exec("taskkill /F /IM conhost.exe");
+                Runtime.getRuntime().exec("taskkill /F /IM phantomjs.exe");
+
             }
             catch (IOException er)
             {

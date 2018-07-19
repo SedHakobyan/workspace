@@ -21,6 +21,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import GrabMyscore.pojo.Gbs;
 
 import java.io.File;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
@@ -71,32 +73,39 @@ public class Controller {
                  // fill_tb();
                 complect.clear();
                     //System.out.println("xcvbn");
-                    String pathphantom = Main.class.getResource("pic/phantomjs.exe").getFile();
+                   // String pathphantom = Main.class.getResource("pic/phantomjs.exe").getFile();
 
                 ClassLoader classLoader = getClass().getClassLoader();
-               File file = new File(classLoader.getResource("GrabMyscore/pic/phantomjs.exe").getFile());
 
+               // File file = new File(classLoader.getResource("GrabMyscore/pic/phantomjs.exe").getFile());
+
+              // File file = new File(this.getClass().getResource(""));
+               // String configFile = this.getClass().getResource("pic/phantomjs.exe").getPath();
+
+      //String phantomway_= file.getParent().substring(0,3)+"\\"+ "phantomjs.exe";
              //  FileUtils.writeStringToFile(new File("d:/phantom_log.txt"), file.getPath()); //write to log
 
 
-
-                  //  System.out.println("path ="+ pathphantom);
+                Path currentRelativePath = Paths.get("");
+             String  configFile=currentRelativePath.toAbsolutePath().toString()+"\\"+"phantomjs.exe";
                     DesiredCapabilities caps = new DesiredCapabilities();
                     caps.setBrowserName("TTUJur");
                     caps.setJavascriptEnabled(true);
-                    caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
-                            file.getPath()); //"C:\\Users\\SedHakobyan\\Desktop\\phantomjs.exe");
+                    caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, configFile); //"C:\\Users\\SedHakobyan\\Desktop\\phantomjs.exe");
+                    loger_.info("path = "+ configFile);
+
 
 
                     WebDriver mydrv = new PhantomJSDriver(caps);
-
+                    loger_.info("after phantom = " + mydrv.getTitle());
                     mydrv.get("https://www.myscore.com.ua/");
                     mydrv.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
                     mydrv.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
                     int games = mydrv.findElements(By.cssSelector("td.cell_sa.score")).size();
-                  //  System.out.println("tag name =" + "size = " + mydrv.findElements(By.cssSelector("td.cell_sa.score")).size());
+                  System.out.println("tag name =" + "size = " + mydrv.findElements(By.cssSelector("td.cell_sa.score")).size());
+                int gsize = mydrv.findElements(By.cssSelector("td.cell_sa.score")).size();
 
-                    for (int i=14;i<27;i++)
+                    for (int i=0;i<gsize;i++)
                     {
                         mydrv.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
                        // FileUtils.copyFile(((TakesScreenshot) mydrv).getScreenshotAs(OutputType.FILE), new File("d:\\myscore.com.ua.jpeg"));
