@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_stylebutton" default="compile.module.stylebutton">
+  <dirname property="module.stylebutton.basedir" file="${ant.file.module_stylebutton}"/>
+  
+  <property name="module.jdk.home.stylebutton" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.stylebutton" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.stylebutton" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.stylebutton" value="-encoding UTF-8 -source 9 -target 9 ${compiler.args}"/>
+  
+  <property name="stylebutton.output.dir" value="${module.stylebutton.basedir}/out/production/StyleButton"/>
+  <property name="stylebutton.testoutput.dir" value="${module.stylebutton.basedir}/out/test/StyleButton"/>
+  
+  <path id="stylebutton.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="stylebutton.module.production.classpath">
+    <path refid="${module.jdk.classpath.stylebutton}"/>
+    <path refid="library.selenium-server-standalone-3.0.0.classpath"/>
+    <path refid="library.selenium-java-3.0.0.classpath"/>
+    <fileset dir="E:/Phantomjs&amp;selenium">
+      <patternset refid="library.patterns"/>
+    </fileset>
+  </path>
+  
+  <path id="stylebutton.runtime.production.module.classpath">
+    <pathelement location="${stylebutton.output.dir}"/>
+    <path refid="library.selenium-server-standalone-3.0.0.classpath"/>
+    <path refid="library.selenium-java-3.0.0.classpath"/>
+    <fileset dir="E:/Phantomjs&amp;selenium">
+      <patternset refid="library.patterns"/>
+    </fileset>
+  </path>
+  
+  <path id="stylebutton.module.classpath">
+    <path refid="${module.jdk.classpath.stylebutton}"/>
+    <pathelement location="${stylebutton.output.dir}"/>
+    <path refid="library.selenium-server-standalone-3.0.0.classpath"/>
+    <path refid="library.selenium-java-3.0.0.classpath"/>
+    <fileset dir="E:/Phantomjs&amp;selenium">
+      <patternset refid="library.patterns"/>
+    </fileset>
+  </path>
+  
+  <path id="stylebutton.runtime.module.classpath">
+    <pathelement location="${stylebutton.testoutput.dir}"/>
+    <pathelement location="${stylebutton.output.dir}"/>
+    <path refid="library.selenium-server-standalone-3.0.0.classpath"/>
+    <path refid="library.selenium-java-3.0.0.classpath"/>
+    <fileset dir="E:/Phantomjs&amp;selenium">
+      <patternset refid="library.patterns"/>
+    </fileset>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.stylebutton">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.stylebutton">
+    <patternset refid="excluded.from.module.stylebutton"/>
+  </patternset>
+  
+  <path id="stylebutton.module.sourcepath">
+    <dirset dir="${module.stylebutton.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.stylebutton" depends="compile.module.stylebutton.production,compile.module.stylebutton.tests" description="Compile module StyleButton"/>
+  
+  <target name="compile.module.stylebutton.production" depends="register.custom.compilers" description="Compile module StyleButton; production classes">
+    <mkdir dir="${stylebutton.output.dir}"/>
+    <javac2 destdir="${stylebutton.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.stylebutton}/javac">
+      <compilerarg line="${compiler.args.stylebutton}"/>
+      <bootclasspath refid="stylebutton.module.bootclasspath"/>
+      <classpath refid="stylebutton.module.production.classpath"/>
+      <src refid="stylebutton.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.stylebutton"/>
+    </javac2>
+    
+    <copy todir="${stylebutton.output.dir}">
+      <fileset dir="${module.stylebutton.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.stylebutton.tests" depends="register.custom.compilers,compile.module.stylebutton.production" description="compile module StyleButton; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.stylebutton" description="cleanup module">
+    <delete dir="${stylebutton.output.dir}"/>
+    <delete dir="${stylebutton.testoutput.dir}"/>
+  </target>
+</project>
