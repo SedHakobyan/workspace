@@ -7,6 +7,7 @@
 <?import javafx.scene.control.ProgressIndicator?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.Blend?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
@@ -40,5 +41,12 @@
         </columns>
       </TableView>
       <Button fx:id="Back" layoutX="-2.0" layoutY="198.0" mnemonicParsing="false" onAction="#Backclick" opacity="0.44" prefHeight="25.0" prefWidth="48.0" text="Back" visible="false" />
+      <Button fx:id="byparty" layoutX="304.0" layoutY="416.0" mnemonicParsing="false" onAction="#Click_bypartybt" opacity="0.37" style="-fx-border-radius: 6; -fx-background-insets: 6;" text="By party">
+         <font>
+            <Font name="Arial Italic" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="begin_game" layoutX="227.0" layoutY="442.0" prefHeight="31.0" prefWidth="73.0" promptText="begin" text="0" visible="false" />
+      <TextField fx:id="end_game" layoutX="397.0" layoutY="442.0" prefHeight="31.0" prefWidth="73.0" promptText="end" text="0" visible="false" />
    </children>
 </AnchorPane>

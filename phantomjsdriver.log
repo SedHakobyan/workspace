@@ -199,3 +199,601 @@ e8-acc3-9933b81f4785] - page.settings - {"XSSAuditingEnabled":false,"javascriptC
 [INFO  - 2018-07-19T13:33:56.809Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 62ef8f50-8b58-11e8-ab6d-a99ddef1e1a4
 [INFO  - 2018-07-19T13:34:02.121Z] Session [62ef8f50-8b58-11e8-ab6d-a99ddef1e1a4] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
 [INFO  - 2018-07-19T13:34:02.121Z] Session [62ef8f50-8b58-11e8-ab6d-a99ddef1e1a4] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T06:53:45.420Z] GhostDriver - Main - running on port 30951
+[INFO  - 2018-07-23T06:53:46.080Z] Session [2513eab0-8e45-11e8-9379-8f20a31779eb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T06:53:46.080Z] Session [2513eab0-8e45-11e8-9379-8f20a31779eb] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T06:53:46.080Z] Session [2513eab0-8e45-11e8-9379-8f20a31779eb] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-07-23T06:53:46.080Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2513eab0-8e45-11e8-9379-8f20a31779eb
+[INFO  - 2018-07-23T06:53:52.272Z] Session [2513eab0-8e45-11e8-9379-8f20a31779eb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T06:53:52.272Z] Session [2513eab0-8e45-11e8-9379-8f20a31779eb] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T06:53:57.137Z] Session [2513eab0-8e45-11e8-9379-8f20a31779eb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T06:53:57.137Z] Session [2513eab0-8e45-11e8-9379-8f20a31779eb] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T06:54:02.319Z] Session [2513eab0-8e45-11e8-9379-8f20a31779eb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T06:54:02.319Z] Session [2513eab0-8e45-11e8-9379-8f20a31779eb] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T06:54:07.488Z] Session [2513eab0-8e45-11e8-9379-8f20a31779eb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T06:54:07.488Z] Session [2513eab0-8e45-11e8-9379-8f20a31779eb] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T06:54:11.732Z] Session [2513eab0-8e45-11e8-9379-8f20a31779eb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T06:54:11.732Z] Session [2513eab0-8e45-11e8-9379-8f20a31779eb] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T07:01:01.003Z] GhostDriver - Main - running on port 25723
+[INFO  - 2018-07-23T07:01:01.354Z] Session [28859c60-8e46-11e8-9513-2913d86e1a44] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T07:01:01.354Z] Session [28859c60-8e46-11e8-9513-2913d86e1a44] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T07:01:01.354Z] Session [28859c60-8e46-11e8-9513-2913d86e1a44] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-07-23T07:01:01.354Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 28859c60-8e46-11e8-9513-2913d86e1a44
+[INFO  - 2018-07-23T07:01:06.729Z] Session [28859c60-8e46-11e8-9513-2913d86e1a44] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T07:01:06.729Z] Session [28859c60-8e46-11e8-9513-2913d86e1a44] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T07:01:11.734Z] Session [28859c60-8e46-11e8-9513-2913d86e1a44] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T07:01:11.734Z] Session [28859c60-8e46-11e8-9513-2913d86e1a44] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T07:01:16.138Z] Session [28859c60-8e46-11e8-9513-2913d86e1a44] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T07:01:16.138Z] Session [28859c60-8e46-11e8-9513-2913d86e1a44] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T07:01:21.000Z] Session [28859c60-8e46-11e8-9513-2913d86e1a44] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T07:01:21.000Z] Session [28859c60-8e46-11e8-9513-2913d86e1a44] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T07:01:25.366Z] Session [28859c60-8e46-11e8-9513-2913d86e1a44] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T07:01:25.366Z] Session [28859c60-8e46-11e8-9513-2913d86e1a44] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T07:45:33.244Z] GhostDriver - Main - running on port 11636
+[INFO  - 2018-07-23T07:45:33.550Z] Session [61463590-8e4c-11e8-9ec6-7b7a6746f86d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T07:45:33.550Z] Session [61463590-8e4c-11e8-9ec6-7b7a6746f86d] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T07:45:33.550Z] Session [61463590-8e4c-11e8-9ec6-7b7a6746f86d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-07-23T07:45:33.550Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 61463590-8e4c-11e8-9ec6-7b7a6746f86d
+[INFO  - 2018-07-23T07:45:38.806Z] Session [61463590-8e4c-11e8-9ec6-7b7a6746f86d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T07:45:38.806Z] Session [61463590-8e4c-11e8-9ec6-7b7a6746f86d] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T07:45:43.284Z] Session [61463590-8e4c-11e8-9ec6-7b7a6746f86d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T07:45:43.284Z] Session [61463590-8e4c-11e8-9ec6-7b7a6746f86d] - page.customHeaders:  - {}
+[INFO  - 2018-07-23T07:45:47.683Z] Session [61463590-8e4c-11e8-9ec6-7b7a6746f86d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-23T07:45:47.683Z] Session [61463590-8e4c-11e8-9ec6-7b7a6746f86d] - page.customHeaders:  - {}
+[INFO  - 2018-08-07T13:00:20.040Z] GhostDriver - Main - running on port 40697
+[INFO  - 2018-08-07T13:00:20.343Z] Session [d6e08430-9a41-11e8-914b-856f2584b271] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-08-07T13:00:20.343Z] Session [d6e08430-9a41-11e8-914b-856f2584b271] - page.customHeaders:  - {}
+[INFO  - 2018-08-07T13:00:20.343Z] Session [d6e08430-9a41-11e8-914b-856f2584b271] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-08-07T13:00:20.343Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d6e08430-9a41-11e8-914b-856f2584b271
+[INFO  - 2018-08-07T13:00:31.654Z] Session [d6e08430-9a41-11e8-914b-856f2584b271] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-08-07T13:00:31.654Z] Session [d6e08430-9a41-11e8-914b-856f2584b271] - page.customHeaders:  - {}
+[INFO  - 2018-08-07T13:00:37.929Z] Session [d6e08430-9a41-11e8-914b-856f2584b271] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-08-07T13:00:37.929Z] Session [d6e08430-9a41-11e8-914b-856f2584b271] - page.customHeaders:  - {}
+[INFO  - 2018-08-07T13:00:44.405Z] Session [d6e08430-9a41-11e8-914b-856f2584b271] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-08-07T13:00:44.405Z] Session [d6e08430-9a41-11e8-914b-856f2584b271] - page.customHeaders:  - {}
+[INFO  - 2018-08-07T13:03:00.191Z] GhostDriver - Main - running on port 44458
+[INFO  - 2018-08-07T13:03:00.407Z] Session [36483120-9a42-11e8-bca9-199b640570c3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-08-07T13:03:00.407Z] Session [36483120-9a42-11e8-bca9-199b640570c3] - page.customHeaders:  - {}
+[INFO  - 2018-08-07T13:03:00.407Z] Session [36483120-9a42-11e8-bca9-199b640570c3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-08-07T13:03:00.407Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 36483120-9a42-11e8-bca9-199b640570c3
+[INFO  - 2018-08-07T13:03:09.311Z] Session [36483120-9a42-11e8-bca9-199b640570c3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-08-07T13:03:09.311Z] Session [36483120-9a42-11e8-bca9-199b640570c3] - page.customHeaders:  - {}
+[INFO  - 2018-08-07T13:03:15.593Z] Session [36483120-9a42-11e8-bca9-199b640570c3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-08-07T13:03:15.593Z] Session [36483120-9a42-11e8-bca9-199b640570c3] - page.customHeaders:  - {}
+[INFO  - 2018-08-07T13:03:22.032Z] Session [36483120-9a42-11e8-bca9-199b640570c3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-08-07T13:03:22.032Z] Session [36483120-9a42-11e8-bca9-199b640570c3] - page.customHeaders:  - {}
+[INFO  - 2018-08-07T13:03:27.363Z] Session [36483120-9a42-11e8-bca9-199b640570c3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-08-07T13:03:27.363Z] Session [36483120-9a42-11e8-bca9-199b640570c3] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T08:21:56.919Z] GhostDriver - Main - running on port 31005
+[INFO  - 2019-07-25T08:22:04.949Z] Session [49085ff0-aeb5-11e9-9e5f-47fe958e5ae3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T08:22:04.952Z] Session [49085ff0-aeb5-11e9-9e5f-47fe958e5ae3] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T08:22:04.954Z] Session [49085ff0-aeb5-11e9-9e5f-47fe958e5ae3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T08:22:05.038Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 49085ff0-aeb5-11e9-9e5f-47fe958e5ae3
+[INFO  - 2019-07-25T10:08:35.650Z] GhostDriver - Main - running on port 9692
+[INFO  - 2019-07-25T10:08:36.632Z] Session [2ac92880-aec4-11e9-accf-4d38aab78e71] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T10:08:36.632Z] Session [2ac92880-aec4-11e9-accf-4d38aab78e71] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T10:08:36.632Z] Session [2ac92880-aec4-11e9-accf-4d38aab78e71] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T10:08:36.633Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2ac92880-aec4-11e9-accf-4d38aab78e71
+[INFO  - 2019-07-25T10:10:55.859Z] GhostDriver - Main - running on port 8460
+[INFO  - 2019-07-25T10:10:56.374Z] Session [7e13a330-aec4-11e9-9bed-07a08dc49fbb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T10:10:56.374Z] Session [7e13a330-aec4-11e9-9bed-07a08dc49fbb] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T10:10:56.374Z] Session [7e13a330-aec4-11e9-9bed-07a08dc49fbb] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T10:10:56.375Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7e13a330-aec4-11e9-9bed-07a08dc49fbb
+[INFO  - 2019-07-25T10:12:44.546Z] GhostDriver - Main - running on port 19665
+[INFO  - 2019-07-25T10:12:45.445Z] Session [bf16db40-aec4-11e9-b500-5b7020fb080f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T10:12:45.445Z] Session [bf16db40-aec4-11e9-b500-5b7020fb080f] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T10:12:45.445Z] Session [bf16db40-aec4-11e9-b500-5b7020fb080f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T10:12:45.445Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: bf16db40-aec4-11e9-b500-5b7020fb080f
+[INFO  - 2019-07-25T10:44:52.890Z] GhostDriver - Main - running on port 18889
+[INFO  - 2019-07-25T10:44:53.902Z] Session [3c896e90-aec9-11e9-9972-316123fdc804] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T10:44:53.902Z] Session [3c896e90-aec9-11e9-9972-316123fdc804] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T10:44:53.903Z] Session [3c896e90-aec9-11e9-9972-316123fdc804] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T10:44:53.903Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3c896e90-aec9-11e9-9972-316123fdc804
+[ERROR - 2019-07-25T10:46:34.824Z] Session [3c896e90-aec9-11e9-9972-316123fdc804] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-25T10:46:34.824Z] Session [3c896e90-aec9-11e9-9972-316123fdc804] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+[INFO  - 2019-07-25T10:47:31.316Z] GhostDriver - Main - running on port 45342
+[INFO  - 2019-07-25T10:47:31.815Z] Session [9aa9ce70-aec9-11e9-b91d-2de793b54b7a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T10:47:31.815Z] Session [9aa9ce70-aec9-11e9-b91d-2de793b54b7a] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T10:47:31.816Z] Session [9aa9ce70-aec9-11e9-b91d-2de793b54b7a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T10:47:31.816Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9aa9ce70-aec9-11e9-b91d-2de793b54b7a
+[ERROR - 2019-07-25T10:49:08.559Z] Session [9aa9ce70-aec9-11e9-b91d-2de793b54b7a] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-25T10:49:08.560Z] Session [9aa9ce70-aec9-11e9-b91d-2de793b54b7a] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+[ERROR - 2019-07-25T10:50:11.647Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1564051811612
+[INFO  - 2019-07-25T10:52:57.661Z] GhostDriver - Main - running on port 22515
+[INFO  - 2019-07-25T10:52:58.034Z] Session [5d1b7c60-aeca-11e9-b7f7-f1267af5dfcc] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T10:52:58.035Z] Session [5d1b7c60-aeca-11e9-b7f7-f1267af5dfcc] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T10:52:58.035Z] Session [5d1b7c60-aeca-11e9-b7f7-f1267af5dfcc] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T10:52:58.035Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5d1b7c60-aeca-11e9-b7f7-f1267af5dfcc
+[ERROR - 2019-07-25T10:54:42.199Z] Session [5d1b7c60-aeca-11e9-b7f7-f1267af5dfcc] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-25T10:54:42.200Z] Session [5d1b7c60-aeca-11e9-b7f7-f1267af5dfcc] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+[INFO  - 2019-07-25T11:06:27.451Z] GhostDriver - Main - running on port 48786
+[INFO  - 2019-07-25T11:06:27.708Z] Session [3fb5ef00-aecc-11e9-af37-7549e183993c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T11:06:27.708Z] Session [3fb5ef00-aecc-11e9-af37-7549e183993c] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T11:06:27.708Z] Session [3fb5ef00-aecc-11e9-af37-7549e183993c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T11:06:27.709Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3fb5ef00-aecc-11e9-af37-7549e183993c
+[ERROR - 2019-07-25T11:08:05.430Z] Session [3fb5ef00-aecc-11e9-af37-7549e183993c] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-25T11:08:05.431Z] Session [3fb5ef00-aecc-11e9-af37-7549e183993c] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+[INFO  - 2019-07-25T11:20:36.188Z] GhostDriver - Main - running on port 17065
+[INFO  - 2019-07-25T11:20:36.383Z] Session [398f7630-aece-11e9-afe7-75f4e4e0c457] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T11:20:36.383Z] Session [398f7630-aece-11e9-afe7-75f4e4e0c457] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T11:20:36.383Z] Session [398f7630-aece-11e9-afe7-75f4e4e0c457] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T11:20:36.383Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 398f7630-aece-11e9-afe7-75f4e4e0c457
+[INFO  - 2019-07-25T11:23:56.350Z] GhostDriver - Main - running on port 10048
+[INFO  - 2019-07-25T11:23:57.103Z] Session [b132c020-aece-11e9-bcd9-4b95434926f8] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T11:23:57.103Z] Session [b132c020-aece-11e9-bcd9-4b95434926f8] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T11:23:57.103Z] Session [b132c020-aece-11e9-bcd9-4b95434926f8] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T11:23:57.103Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b132c020-aece-11e9-bcd9-4b95434926f8
+[ERROR - 2019-07-25T11:25:39.402Z] Session [b132c020-aece-11e9-bcd9-4b95434926f8] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-25T11:25:39.403Z] Session [b132c020-aece-11e9-bcd9-4b95434926f8] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+[INFO  - 2019-07-25T11:27:21.118Z] GhostDriver - Main - running on port 1401
+[INFO  - 2019-07-25T11:27:21.950Z] Session [2b4bec10-aecf-11e9-aba4-9588c4fa21a0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T11:27:21.950Z] Session [2b4bec10-aecf-11e9-aba4-9588c4fa21a0] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T11:27:21.950Z] Session [2b4bec10-aecf-11e9-aba4-9588c4fa21a0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T11:27:21.950Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2b4bec10-aecf-11e9-aba4-9588c4fa21a0
+[ERROR - 2019-07-25T11:28:49.303Z] Session [2b4bec10-aecf-11e9-aba4-9588c4fa21a0] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-25T11:28:49.304Z] Session [2b4bec10-aecf-11e9-aba4-9588c4fa21a0] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+[INFO  - 2019-07-25T11:30:42.495Z] GhostDriver - Main - running on port 21698
+[INFO  - 2019-07-25T11:30:43.096Z] Session [a33084c0-aecf-11e9-8980-81a8af81e228] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T11:30:43.097Z] Session [a33084c0-aecf-11e9-8980-81a8af81e228] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T11:30:43.097Z] Session [a33084c0-aecf-11e9-8980-81a8af81e228] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T11:30:43.097Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a33084c0-aecf-11e9-8980-81a8af81e228
+[ERROR - 2019-07-25T11:32:30.311Z] Session [a33084c0-aecf-11e9-8980-81a8af81e228] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-25T11:32:30.311Z] Session [a33084c0-aecf-11e9-8980-81a8af81e228] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+[INFO  - 2019-07-25T11:35:00.794Z] GhostDriver - Main - running on port 34824
+[INFO  - 2019-07-25T11:35:01.610Z] Session [3d4603a0-aed0-11e9-9f6d-77c2c483174b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T11:35:01.611Z] Session [3d4603a0-aed0-11e9-9f6d-77c2c483174b] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T11:35:01.611Z] Session [3d4603a0-aed0-11e9-9f6d-77c2c483174b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T11:35:01.611Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3d4603a0-aed0-11e9-9f6d-77c2c483174b
+[INFO  - 2019-07-25T11:43:58.581Z] GhostDriver - Main - running on port 8769
+[INFO  - 2019-07-25T11:43:59.422Z] Session [7dd4d990-aed1-11e9-b9cc-2d6877f7cc6a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T11:43:59.422Z] Session [7dd4d990-aed1-11e9-b9cc-2d6877f7cc6a] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T11:43:59.423Z] Session [7dd4d990-aed1-11e9-b9cc-2d6877f7cc6a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T11:43:59.423Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7dd4d990-aed1-11e9-b9cc-2d6877f7cc6a
+[ERROR - 2019-07-25T11:45:52.811Z] Session [7dd4d990-aed1-11e9-b9cc-2d6877f7cc6a] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-25T11:45:52.812Z] Session [7dd4d990-aed1-11e9-b9cc-2d6877f7cc6a] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+[INFO  - 2019-07-25T11:48:12.684Z] GhostDriver - Main - running on port 4329
+[INFO  - 2019-07-25T11:48:13.110Z] Session [150b2d50-aed2-11e9-9a91-197dcdfcc562] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T11:48:13.110Z] Session [150b2d50-aed2-11e9-9a91-197dcdfcc562] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T11:48:13.110Z] Session [150b2d50-aed2-11e9-9a91-197dcdfcc562] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T11:48:13.111Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 150b2d50-aed2-11e9-9a91-197dcdfcc562
+[ERROR - 2019-07-25T11:50:02.116Z] Session [150b2d50-aed2-11e9-9a91-197dcdfcc562] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-25T11:50:02.117Z] Session [150b2d50-aed2-11e9-9a91-197dcdfcc562] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+[INFO  - 2019-07-25T11:53:23.161Z] GhostDriver - Main - running on port 4479
+[INFO  - 2019-07-25T11:53:23.505Z] Session [ce0e7550-aed2-11e9-b994-c3b458eff49b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T11:53:23.505Z] Session [ce0e7550-aed2-11e9-b994-c3b458eff49b] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T11:53:23.505Z] Session [ce0e7550-aed2-11e9-b994-c3b458eff49b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T11:53:23.506Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ce0e7550-aed2-11e9-b994-c3b458eff49b
+[INFO  - 2019-07-25T11:54:38.837Z] GhostDriver - Main - running on port 9547
+[INFO  - 2019-07-25T11:54:39.124Z] Session [fb210080-aed2-11e9-a7da-87ba6379677d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T11:54:39.124Z] Session [fb210080-aed2-11e9-a7da-87ba6379677d] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T11:54:39.124Z] Session [fb210080-aed2-11e9-a7da-87ba6379677d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T11:54:39.125Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: fb210080-aed2-11e9-a7da-87ba6379677d
+[ERROR - 2019-07-25T11:56:14.792Z] Session [fb210080-aed2-11e9-a7da-87ba6379677d] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-25T11:56:14.793Z] Session [fb210080-aed2-11e9-a7da-87ba6379677d] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+[INFO  - 2019-07-25T11:58:27.033Z] GhostDriver - Main - running on port 44255
+[INFO  - 2019-07-25T11:58:27.402Z] Session [833175e0-aed3-11e9-81ac-2fedffb2d7d9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T11:58:27.402Z] Session [833175e0-aed3-11e9-81ac-2fedffb2d7d9] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T11:58:27.402Z] Session [833175e0-aed3-11e9-81ac-2fedffb2d7d9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T11:58:27.402Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 833175e0-aed3-11e9-81ac-2fedffb2d7d9
+[ERROR - 2019-07-25T11:59:37.636Z] Session [833175e0-aed3-11e9-81ac-2fedffb2d7d9] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-25T11:59:37.637Z] Session [833175e0-aed3-11e9-81ac-2fedffb2d7d9] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+[INFO  - 2019-07-25T12:02:44.170Z] GhostDriver - Main - running on port 23262
+[INFO  - 2019-07-25T12:02:44.597Z] Session [1c7dd860-aed4-11e9-b82f-d74eaf2133bc] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T12:02:44.597Z] Session [1c7dd860-aed4-11e9-b82f-d74eaf2133bc] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T12:02:44.597Z] Session [1c7dd860-aed4-11e9-b82f-d74eaf2133bc] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T12:02:44.598Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1c7dd860-aed4-11e9-b82f-d74eaf2133bc
+[ERROR - 2019-07-25T12:04:21.945Z] Session [1c7dd860-aed4-11e9-b82f-d74eaf2133bc] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-25T12:04:21.945Z] Session [1c7dd860-aed4-11e9-b82f-d74eaf2133bc] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+[INFO  - 2019-07-25T12:07:43.653Z] GhostDriver - Main - running on port 7995
+[INFO  - 2019-07-25T12:07:44.475Z] Session [cf3be6e0-aed4-11e9-bd5c-99c68ea681af] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T12:07:44.475Z] Session [cf3be6e0-aed4-11e9-bd5c-99c68ea681af] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T12:07:44.475Z] Session [cf3be6e0-aed4-11e9-bd5c-99c68ea681af] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T12:07:44.475Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: cf3be6e0-aed4-11e9-bd5c-99c68ea681af
+[INFO  - 2019-07-25T12:09:04.680Z] Session [cf3be6e0-aed4-11e9-bd5c-99c68ea681af] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T12:09:04.680Z] Session [cf3be6e0-aed4-11e9-bd5c-99c68ea681af] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T12:36:22.876Z] GhostDriver - Main - running on port 46183
+[INFO  - 2019-07-25T12:36:23.943Z] Session [d01cad20-aed8-11e9-846d-7b5f4476930c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T12:36:23.943Z] Session [d01cad20-aed8-11e9-846d-7b5f4476930c] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T12:36:23.943Z] Session [d01cad20-aed8-11e9-846d-7b5f4476930c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T12:36:23.944Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d01cad20-aed8-11e9-846d-7b5f4476930c
+[ERROR - 2019-07-25T12:38:09.237Z] Session [d01cad20-aed8-11e9-846d-7b5f4476930c] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-25T12:38:09.238Z] Session [d01cad20-aed8-11e9-846d-7b5f4476930c] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+[INFO  - 2019-07-25T12:41:22.860Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-07-25T12:46:22.884Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-07-25T12:51:22.890Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-07-25T13:43:06.964Z] GhostDriver - Main - running on port 26823
+[INFO  - 2019-07-25T13:43:07.481Z] Session [2268b480-aee2-11e9-be8b-f76d77e9d1a1] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-25T13:43:07.481Z] Session [2268b480-aee2-11e9-be8b-f76d77e9d1a1] - page.customHeaders:  - {}
+[INFO  - 2019-07-25T13:43:07.481Z] Session [2268b480-aee2-11e9-be8b-f76d77e9d1a1] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-25T13:43:07.481Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2268b480-aee2-11e9-be8b-f76d77e9d1a1
+[ERROR - 2019-07-25T13:45:14.978Z] Session [2268b480-aee2-11e9-be8b-f76d77e9d1a1] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-25T13:45:14.978Z] Session [2268b480-aee2-11e9-be8b-f76d77e9d1a1] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1712000000:1)
+[INFO  - 2019-07-30T11:28:39.036Z] GhostDriver - Main - running on port 15221
+[INFO  - 2019-07-30T11:28:39.619Z] Session [2da59460-b2bd-11e9-ad80-f3c04b1c1c17] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-30T11:28:39.620Z] Session [2da59460-b2bd-11e9-ad80-f3c04b1c1c17] - page.customHeaders:  - {}
+[INFO  - 2019-07-30T11:28:39.620Z] Session [2da59460-b2bd-11e9-ad80-f3c04b1c1c17] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-30T11:28:39.620Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2da59460-b2bd-11e9-ad80-f3c04b1c1c17
+[INFO  - 2019-07-30T11:31:37.466Z] GhostDriver - Main - running on port 3884
+[INFO  - 2019-07-30T11:31:38.450Z] Session [983cdf40-b2bd-11e9-85a4-a9bd39c0737b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-30T11:31:38.451Z] Session [983cdf40-b2bd-11e9-85a4-a9bd39c0737b] - page.customHeaders:  - {}
+[INFO  - 2019-07-30T11:31:38.451Z] Session [983cdf40-b2bd-11e9-85a4-a9bd39c0737b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-30T11:31:38.452Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 983cdf40-b2bd-11e9-85a4-a9bd39c0737b
+[ERROR - 2019-07-30T11:33:54.247Z] Session [983cdf40-b2bd-11e9-85a4-a9bd39c0737b] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-30T11:33:54.248Z] Session [983cdf40-b2bd-11e9-85a4-a9bd39c0737b] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+[INFO  - 2019-07-30T11:36:37.442Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-07-30T11:41:37.452Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-07-30T11:46:37.456Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-07-30T11:51:37.466Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-07-30T11:56:37.467Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-07-30T12:01:37.476Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-07-30T12:06:37.484Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-07-30T12:11:37.484Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-07-30T12:16:37.484Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-07-30T12:17:38.114Z] GhostDriver - Main - running on port 35551
+[INFO  - 2019-07-30T12:17:39.150Z] Session [05bd3190-b2c4-11e9-b0cb-d782e1131ae7] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-30T12:17:39.151Z] Session [05bd3190-b2c4-11e9-b0cb-d782e1131ae7] - page.customHeaders:  - {}
+[INFO  - 2019-07-30T12:17:39.152Z] Session [05bd3190-b2c4-11e9-b0cb-d782e1131ae7] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-30T12:17:39.153Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 05bd3190-b2c4-11e9-b0cb-d782e1131ae7
+[ERROR - 2019-07-30T12:19:51.332Z] Session [05bd3190-b2c4-11e9-b0cb-d782e1131ae7] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-30T12:19:51.333Z] Session [05bd3190-b2c4-11e9-b0cb-d782e1131ae7] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+[INFO  - 2019-07-30T12:22:38.098Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-07-30T12:35:51.652Z] GhostDriver - Main - running on port 44975
+[INFO  - 2019-07-30T12:35:52.459Z] Session [916a1cb0-b2c6-11e9-a09a-dd6ebb537722] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-30T12:35:52.459Z] Session [916a1cb0-b2c6-11e9-a09a-dd6ebb537722] - page.customHeaders:  - {}
+[INFO  - 2019-07-30T12:35:52.459Z] Session [916a1cb0-b2c6-11e9-a09a-dd6ebb537722] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-30T12:35:52.460Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 916a1cb0-b2c6-11e9-a09a-dd6ebb537722
+[INFO  - 2019-07-30T12:38:41.550Z] GhostDriver - Main - running on port 35243
+[INFO  - 2019-07-30T12:38:42.504Z] Session [f6c2a190-b2c6-11e9-b2b1-2da27eca7a97] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-30T12:38:42.505Z] Session [f6c2a190-b2c6-11e9-b2b1-2da27eca7a97] - page.customHeaders:  - {}
+[INFO  - 2019-07-30T12:38:42.505Z] Session [f6c2a190-b2c6-11e9-b2b1-2da27eca7a97] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-30T12:38:42.506Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f6c2a190-b2c6-11e9-b2b1-2da27eca7a97
+[INFO  - 2019-07-30T13:19:49.690Z] GhostDriver - Main - running on port 3622
+[INFO  - 2019-07-30T13:19:50.400Z] Session [b5bf0ca0-b2cc-11e9-9003-c1c27b1c5041] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-30T13:19:50.400Z] Session [b5bf0ca0-b2cc-11e9-9003-c1c27b1c5041] - page.customHeaders:  - {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"}
+[INFO  - 2019-07-30T13:19:50.401Z] Session [b5bf0ca0-b2cc-11e9-9003-c1c27b1c5041] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.customHeaders.User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"}
+[INFO  - 2019-07-30T13:19:50.401Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b5bf0ca0-b2cc-11e9-9003-c1c27b1c5041
+[INFO  - 2019-07-30T13:21:44.915Z] GhostDriver - Main - running on port 35298
+[INFO  - 2019-07-30T13:21:46.218Z] Session [fac4ba20-b2cc-11e9-9634-8d7f8d491359] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-30T13:21:46.220Z] Session [fac4ba20-b2cc-11e9-9634-8d7f8d491359] - page.customHeaders:  - {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"}
+[INFO  - 2019-07-30T13:21:46.220Z] Session [fac4ba20-b2cc-11e9-9634-8d7f8d491359] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.customHeaders.User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"}
+[INFO  - 2019-07-30T13:21:46.222Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: fac4ba20-b2cc-11e9-9634-8d7f8d491359
+[ERROR - 2019-07-30T13:24:12.548Z] Session [fac4ba20-b2cc-11e9-9634-8d7f8d491359] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-30T13:24:12.549Z] Session [fac4ba20-b2cc-11e9-9634-8d7f8d491359] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+[ERROR - 2019-07-30T13:34:54.922Z] Session [786ff100-b2ce-11e9-9894-4fc0e4ef512e] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-30T13:34:54.923Z] Session [786ff100-b2ce-11e9-9894-4fc0e4ef512e] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+[ERROR - 2019-07-30T14:18:03.838Z] Session [7c027ee0-b2d4-11e9-a572-07ebd90cbff6] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-30T14:18:03.840Z] Session [7c027ee0-b2d4-11e9-a572-07ebd90cbff6] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1713000000:1)
+[ERROR - 2019-07-31T10:23:12.032Z] Session [3151d040-b37d-11e9-816d-3d4e8edb1fb5] - page.onError - msg: SyntaxError: Expected an identifier but found 'sportIds' instead
+[ERROR - 2019-07-31T10:23:12.079Z] Session [3151d040-b37d-11e9-816d-3d4e8edb1fb5] - page.onError - stack:
+  eval (https://www.myscore.com.ua/x/js/core_32_1714000000.js:5)
+[ERROR - 2019-07-31T10:23:12.305Z] Session [3151d040-b37d-11e9-816d-3d4e8edb1fb5] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-31T10:23:12.305Z] Session [3151d040-b37d-11e9-816d-3d4e8edb1fb5] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+[ERROR - 2019-07-31T10:24:28.129Z] Session [5ea66d80-b37d-11e9-b61a-b5007641b029] - page.onError - msg: SyntaxError: Expected an identifier but found 'sportIds' instead
+[ERROR - 2019-07-31T10:24:28.130Z] Session [5ea66d80-b37d-11e9-b61a-b5007641b029] - page.onError - stack:
+  eval (https://www.myscore.com.ua/x/js/core_32_1714000000.js:5)
+[ERROR - 2019-07-31T10:24:28.287Z] Session [5ea66d80-b37d-11e9-b61a-b5007641b029] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-31T10:24:28.288Z] Session [5ea66d80-b37d-11e9-b61a-b5007641b029] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+[INFO  - 2019-07-31T10:27:20.538Z] GhostDriver - Main - running on port 37600
+[INFO  - 2019-07-31T10:27:20.970Z] Session [c76b4250-b37d-11e9-9b9f-f772715ae451] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-31T10:27:20.970Z] Session [c76b4250-b37d-11e9-9b9f-f772715ae451] - page.customHeaders:  - {}
+[INFO  - 2019-07-31T10:27:20.970Z] Session [c76b4250-b37d-11e9-9b9f-f772715ae451] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-31T10:27:20.971Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c76b4250-b37d-11e9-9b9f-f772715ae451
+[ERROR - 2019-07-31T10:27:25.098Z] Session [c76b4250-b37d-11e9-9b9f-f772715ae451] - page.onError - msg: SyntaxError: Expected an identifier but found 'sportIds' instead
+[ERROR - 2019-07-31T10:27:25.098Z] Session [c76b4250-b37d-11e9-9b9f-f772715ae451] - page.onError - stack:
+  eval (https://www.myscore.com.ua/x/js/core_32_1714000000.js:5)
+[ERROR - 2019-07-31T10:27:25.322Z] Session [c76b4250-b37d-11e9-9b9f-f772715ae451] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-07-31T10:27:25.322Z] Session [c76b4250-b37d-11e9-9b9f-f772715ae451] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1714000000:1)
+[INFO  - 2019-08-08T07:09:56.852Z] GhostDriver - Main - running on port 37901
+[INFO  - 2019-08-08T07:09:58.104Z] Session [87d12e50-b9ab-11e9-ab03-fb9dc258626b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-08-08T07:09:58.104Z] Session [87d12e50-b9ab-11e9-ab03-fb9dc258626b] - page.customHeaders:  - {}
+[INFO  - 2019-08-08T07:09:58.105Z] Session [87d12e50-b9ab-11e9-ab03-fb9dc258626b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-08-08T07:09:58.105Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 87d12e50-b9ab-11e9-ab03-fb9dc258626b
+[ERROR - 2019-08-08T07:10:00.711Z] Session [87d12e50-b9ab-11e9-ab03-fb9dc258626b] - page.onError - msg: SyntaxError: Expected an identifier but found 'sportIds' instead
+[ERROR - 2019-08-08T07:10:00.711Z] Session [87d12e50-b9ab-11e9-ab03-fb9dc258626b] - page.onError - stack:
+  eval (https://www.myscore.com.ua/x/js/core_32_1719000000.js:5)
+[ERROR - 2019-08-08T07:10:00.910Z] Session [87d12e50-b9ab-11e9-ab03-fb9dc258626b] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-08-08T07:10:00.910Z] Session [87d12e50-b9ab-11e9-ab03-fb9dc258626b] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+[INFO  - 2019-08-08T07:23:25.845Z] GhostDriver - Main - running on port 18792
+[INFO  - 2019-08-08T07:23:26.964Z] Session [69ef6c10-b9ad-11e9-ad60-bdbb0d599ce0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-08-08T07:23:26.964Z] Session [69ef6c10-b9ad-11e9-ad60-bdbb0d599ce0] - page.customHeaders:  - {}
+[INFO  - 2019-08-08T07:23:26.965Z] Session [69ef6c10-b9ad-11e9-ad60-bdbb0d599ce0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-08-08T07:23:26.966Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 69ef6c10-b9ad-11e9-ad60-bdbb0d599ce0
+[ERROR - 2019-08-08T07:23:29.340Z] Session [69ef6c10-b9ad-11e9-ad60-bdbb0d599ce0] - page.onError - msg: SyntaxError: Expected an identifier but found 'sportIds' instead
+[ERROR - 2019-08-08T07:23:29.341Z] Session [69ef6c10-b9ad-11e9-ad60-bdbb0d599ce0] - page.onError - stack:
+  eval (https://www.myscore.com.ua/x/js/core_32_1719000000.js:5)
+[ERROR - 2019-08-08T07:23:29.520Z] Session [69ef6c10-b9ad-11e9-ad60-bdbb0d599ce0] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-08-08T07:23:29.521Z] Session [69ef6c10-b9ad-11e9-ad60-bdbb0d599ce0] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+[ERROR - 2019-08-08T07:23:34.936Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565249014888
+[ERROR - 2019-08-08T07:23:36.449Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565249016448
+[ERROR - 2019-08-08T07:23:37.779Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565249017763
+[ERROR - 2019-08-08T07:23:39.091Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565249019090
+[ERROR - 2019-08-08T07:23:40.372Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565249020366
+[ERROR - 2019-08-08T07:23:41.717Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565249021685
+[ERROR - 2019-08-08T07:23:43.064Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565249023019
+[ERROR - 2019-08-08T07:23:44.394Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565249024353
+[ERROR - 2019-08-08T07:23:45.863Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565249025786
+[ERROR - 2019-08-08T07:23:47.315Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565249027262
+[ERROR - 2019-08-08T07:23:48.751Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565249028700
+[ERROR - 2019-08-08T07:23:50.188Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565249030142
+[ERROR - 2019-08-08T07:23:51.612Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565249031558
+[ERROR - 2019-08-08T07:23:53.049Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565249032999
+[ERROR - 2019-08-08T07:23:54.488Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565249034434
+[INFO  - 2019-08-08T07:27:24.401Z] GhostDriver - Main - running on port 2273
+[INFO  - 2019-08-08T07:27:24.833Z] Session [f7b90790-b9ad-11e9-91ab-a339e5d94e34] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-08-08T07:27:24.833Z] Session [f7b90790-b9ad-11e9-91ab-a339e5d94e34] - page.customHeaders:  - {}
+[INFO  - 2019-08-08T07:27:24.834Z] Session [f7b90790-b9ad-11e9-91ab-a339e5d94e34] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-08-08T07:27:24.834Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f7b90790-b9ad-11e9-91ab-a339e5d94e34
+[ERROR - 2019-08-08T07:27:26.729Z] Session [f7b90790-b9ad-11e9-91ab-a339e5d94e34] - page.onError - msg: SyntaxError: Expected an identifier but found 'sportIds' instead
+[ERROR - 2019-08-08T07:27:26.729Z] Session [f7b90790-b9ad-11e9-91ab-a339e5d94e34] - page.onError - stack:
+  eval (https://www.myscore.com.ua/x/js/core_32_1719000000.js:5)
+[ERROR - 2019-08-08T07:27:26.882Z] Session [f7b90790-b9ad-11e9-91ab-a339e5d94e34] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-08-08T07:27:26.882Z] Session [f7b90790-b9ad-11e9-91ab-a339e5d94e34] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+[INFO  - 2019-08-08T07:57:51.083Z] GhostDriver - Main - running on port 25869
+[INFO  - 2019-08-08T07:57:51.751Z] Session [38a51150-b9b2-11e9-aed8-dd0dd51d88c5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-08-08T07:57:51.752Z] Session [38a51150-b9b2-11e9-aed8-dd0dd51d88c5] - page.customHeaders:  - {}
+[INFO  - 2019-08-08T07:57:51.752Z] Session [38a51150-b9b2-11e9-aed8-dd0dd51d88c5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-08-08T07:57:51.753Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 38a51150-b9b2-11e9-aed8-dd0dd51d88c5
+[ERROR - 2019-08-08T07:57:54.554Z] Session [38a51150-b9b2-11e9-aed8-dd0dd51d88c5] - page.onError - msg: SyntaxError: Expected an identifier but found 'sportIds' instead
+[ERROR - 2019-08-08T07:57:54.555Z] Session [38a51150-b9b2-11e9-aed8-dd0dd51d88c5] - page.onError - stack:
+  eval (https://www.myscore.com.ua/x/js/core_32_1719000000.js:5)
+[ERROR - 2019-08-08T07:57:54.773Z] Session [38a51150-b9b2-11e9-aed8-dd0dd51d88c5] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-08-08T07:57:54.773Z] Session [38a51150-b9b2-11e9-aed8-dd0dd51d88c5] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1719000000:1)
+[ERROR - 2019-08-08T07:58:00.242Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565251080222
+[ERROR - 2019-08-08T07:58:01.895Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565251081845
+[ERROR - 2019-08-08T07:58:03.332Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565251083286
+[ERROR - 2019-08-08T07:58:04.754Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565251084712
+[ERROR - 2019-08-08T07:58:06.224Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565251086179
+[ERROR - 2019-08-08T07:58:07.662Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565251087610
+[ERROR - 2019-08-08T07:58:09.097Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565251089051
+[ERROR - 2019-08-08T07:58:10.569Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565251090495
+[ERROR - 2019-08-08T07:58:12.037Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565251091989
+[ERROR - 2019-08-08T07:58:13.539Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565251093486
+[ERROR - 2019-08-08T07:58:15.022Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565251094979
+[ERROR - 2019-08-08T07:58:16.522Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565251096473
+[ERROR - 2019-08-08T07:58:18.006Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565251097960
+[ERROR - 2019-08-08T07:58:19.522Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565251099463
+[INFO  - 2019-08-08T09:57:51.133Z] GhostDriver - Main - running on port 25651
+[INFO  - 2019-08-08T09:57:52.412Z] Session [fc92e4b0-b9c2-11e9-963e-09e5b4e453b5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-08-08T09:57:52.413Z] Session [fc92e4b0-b9c2-11e9-963e-09e5b4e453b5] - page.customHeaders:  - {}
+[INFO  - 2019-08-08T09:57:52.413Z] Session [fc92e4b0-b9c2-11e9-963e-09e5b4e453b5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-08-08T09:57:52.414Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: fc92e4b0-b9c2-11e9-963e-09e5b4e453b5
+[ERROR - 2019-08-08T09:58:56.049Z] Session [fc92e4b0-b9c2-11e9-963e-09e5b4e453b5] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2019-08-08T09:58:56.050Z] Session [fc92e4b0-b9c2-11e9-963e-09e5b4e453b5] - page.onError - stack:
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1720000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1720000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1720000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1720000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1720000000:1)
+  n (https://www.myscore.com.ua/x/js/bundle.js?serial=1720000000:1)
+  (anonymous function) (https://www.myscore.com.ua/x/js/bundle.js?serial=1720000000:1)
+[ERROR - 2019-08-08T09:59:02.495Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565258342490
+[ERROR - 2019-08-08T09:59:04.151Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565258344104
+[ERROR - 2019-08-08T09:59:05.759Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565258345714
+[ERROR - 2019-08-08T09:59:07.338Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565258347300
+[ERROR - 2019-08-08T09:59:08.931Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565258348881
+[ERROR - 2019-08-08T09:59:10.463Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565258350422
+[ERROR - 2019-08-08T09:59:12.073Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565258352018
+[ERROR - 2019-08-08T09:59:13.637Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565258353586
+[ERROR - 2019-08-08T09:59:15.153Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565258355107
+[ERROR - 2019-08-08T09:59:16.807Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565258356756
+[ERROR - 2019-08-08T09:59:18.464Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565258358411
+[ERROR - 2019-08-08T09:59:20.103Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565258360075
+[ERROR - 2019-08-08T09:59:21.681Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565258361637
+[INFO  - 2019-08-08T10:23:42.757Z] GhostDriver - Main - running on port 43555
+[INFO  - 2019-08-08T10:23:43.762Z] Session [993ee590-b9c6-11e9-a640-956146c5559c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-08-08T10:23:43.765Z] Session [993ee590-b9c6-11e9-a640-956146c5559c] - page.customHeaders:  - {}
+[INFO  - 2019-08-08T10:23:43.766Z] Session [993ee590-b9c6-11e9-a640-956146c5559c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-08-08T10:23:43.767Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 993ee590-b9c6-11e9-a640-956146c5559c
+[ERROR - 2019-08-08T10:23:47.147Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259827140
+[ERROR - 2019-08-08T10:23:48.011Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259827968
+[ERROR - 2019-08-08T10:23:48.940Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259828911
+[ERROR - 2019-08-08T10:23:49.738Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259829728
+[ERROR - 2019-08-08T10:23:50.535Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259830527
+[ERROR - 2019-08-08T10:23:51.347Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259831323
+[ERROR - 2019-08-08T10:23:52.177Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259832135
+[ERROR - 2019-08-08T10:23:53.079Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259833051
+[ERROR - 2019-08-08T10:23:53.878Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259833870
+[ERROR - 2019-08-08T10:23:54.737Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259834699
+[ERROR - 2019-08-08T10:23:55.532Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259835530
+[ERROR - 2019-08-08T10:23:56.315Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259836313
+[ERROR - 2019-08-08T10:23:57.144Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259837101
+[ERROR - 2019-08-08T10:23:57.976Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259837933
+[ERROR - 2019-08-08T10:23:58.825Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259838773
+[ERROR - 2019-08-08T10:23:59.680Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259839622
+[ERROR - 2019-08-08T10:24:00.538Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259840483
+[ERROR - 2019-08-08T10:24:01.398Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259841341
+[ERROR - 2019-08-08T10:24:02.222Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259842193
+[ERROR - 2019-08-08T10:24:03.054Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259843012
+[ERROR - 2019-08-08T10:24:03.898Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1565259843853
+[INFO  - 2019-08-08T10:24:18.486Z] GhostDriver - Main - running on port 22832
+[INFO  - 2019-08-08T10:24:19.000Z] Session [ae440fb0-b9c6-11e9-903b-2171d33ff123] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-08-08T10:24:19.000Z] Session [ae440fb0-b9c6-11e9-903b-2171d33ff123] - page.customHeaders:  - {}
+[INFO  - 2019-08-08T10:24:19.000Z] Session [ae440fb0-b9c6-11e9-903b-2171d33ff123] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-08-08T10:24:19.000Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ae440fb0-b9c6-11e9-903b-2171d33ff123
+[INFO  - 2019-08-08T10:26:26.987Z] GhostDriver - Main - running on port 18318
+[INFO  - 2019-08-08T10:26:28.029Z] Session [fb283450-b9c6-11e9-a501-337e001f0a61] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-08-08T10:26:28.029Z] Session [fb283450-b9c6-11e9-a501-337e001f0a61] - page.customHeaders:  - {}
+[INFO  - 2019-08-08T10:26:28.030Z] Session [fb283450-b9c6-11e9-a501-337e001f0a61] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-08-08T10:26:28.031Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: fb283450-b9c6-11e9-a501-337e001f0a61

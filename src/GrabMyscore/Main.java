@@ -30,7 +30,7 @@ public class Main extends Application {
         primaryStage.setOnCloseRequest(event -> {
             try {
                 Runtime.getRuntime().exec("taskkill /F /IM conhost.exe");
-                Runtime.getRuntime().exec("taskkill /F /IM phantomjs.exe");
+                Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
 
             }
             catch (IOException er)

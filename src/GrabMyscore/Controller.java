@@ -1,6 +1,6 @@
 package GrabMyscore;
 
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
+//import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
@@ -8,17 +8,21 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
-import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.*;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import GrabMyscore.pojo.Gbs;
+
 
 import java.io.File;
 import java.nio.file.Path;
@@ -55,7 +59,13 @@ public class Controller {
     private TableColumn <Gbs,String> Blocked;
    @FXML
    private AnchorPane mainpanel;
-   private static final  Logger loger_= getLogger(Controller.class);
+    TextField begin_game;
+    @FXML
+    TextField end_game;
+    @FXML
+    private Button byparty;
+
+    private static final  Logger loger_= getLogger(Controller.class);
 
 
     @FXML
@@ -85,31 +95,54 @@ public class Controller {
       //String phantomway_= file.getParent().substring(0,3)+"\\"+ "phantomjs.exe";
              //  FileUtils.writeStringToFile(new File("d:/phantom_log.txt"), file.getPath()); //write to log
 
-
                 Path currentRelativePath = Paths.get("");
-             String  configFile=currentRelativePath.toAbsolutePath().toString()+"\\"+"phantomjs.exe";
-                    DesiredCapabilities caps = new DesiredCapabilities();
-                    caps.setBrowserName("TTUJur");
-                    caps.setJavascriptEnabled(true);
-                    caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, configFile); //"C:\\Users\\SedHakobyan\\Desktop\\phantomjs.exe");
-                    loger_.info("path = "+ configFile);
+            // String  configFile=currentRelativePath.toAbsolutePath().toString()+"\\"+"chromedriver.exe";
+             String chromepath = currentRelativePath.toAbsolutePath().toString()+"\\"+"chromedriver.exe";
+
+                System.setProperty("webdriver.chrome.driver", chromepath);
+                // Add options to Google Chrome. The window-size is important for responsive sites
+               ChromeOptions options = new ChromeOptions();
+                options.addArguments("--headless", "--enable-gpu", "--window-size=1920,1200","--ignore-certificate-errors");
+                WebDriver mydrv = new ChromeDriver(options);
+                mydrv.get("https://www.myscore.com.ua");
+                System.out.println("mtav!!!");
+                mydrv.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
+
+                FileUtils.copyFile(((TakesScreenshot) mydrv).getScreenshotAs(OutputType.FILE), new File("d:\\myscore.com.ua.jpeg"));
+                System.out.println("helav!!!");
+ //with chrome headless;
 
 
+                String USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3282.167 Safari/537.36";
+                DesiredCapabilities caps = new DesiredCapabilities();
+                caps.setBrowserName("TTUJur");
+                caps.setJavascriptEnabled(true);
+                //caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, configFile);// "C:\\Users\\SedHakobyan\\Desktop\\phantomjs.exe")
 
-                    WebDriver mydrv = new PhantomJSDriver(caps);
-                    loger_.info("after phantom = " + mydrv.getTitle());
-                    mydrv.get("https://www.myscore.com.ua/");
-                    mydrv.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
-                    mydrv.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
-                    int games = mydrv.findElements(By.cssSelector("td.cell_sa.score")).size();
-                  System.out.println("tag name =" + "size = " + mydrv.findElements(By.cssSelector("td.cell_sa.score")).size());
-                int gsize = mydrv.findElements(By.cssSelector("td.cell_sa.score")).size();
+                //loger_.info("path = "+ configFile);
 
-                    for (int i=0;i<gsize;i++)
+              //  WebDriver mydrv = new PhantomJSDriver(caps);
+                 //   loger_.info("after phantom = " + mydrv.getTitle());
+                 //   mydrv.get("http://www.myscore.com.ua:443");
+                   //mydrv.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+               // Thread.sleep(3000) ;
+                //waitForLoad(mydrv);
+
+
+               // if (!isElementPresentBycss("div.event__scores",mydrv)) throw new Exception("element2 chi gtnvel!!!");
+
+              //  FileUtils.copyFile(((TakesScreenshot) mydrv).getScreenshotAs(OutputType.FILE), new File("d:\\myscore.com.ua.jpeg"));
+                System.out.println("tag name =" + "size = " + "MIIIIIII");
+                int games = mydrv.findElements(By.cssSelector("[title^='Подробности']")).size();
+
+                  System.out.println("tag name =" + "size = " + games);
+               // int gsize = mydrv.findElements(By.cssSelector("div.sportName.soccer")).size();
+
+                    for (int i=1;i<2;i++)
                     {
                         mydrv.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
                        // FileUtils.copyFile(((TakesScreenshot) mydrv).getScreenshotAs(OutputType.FILE), new File("d:\\myscore.com.ua.jpeg"));
-                        WebElement elo = mydrv.findElements(By.cssSelector("td.cell_sa.score")).get(i);
+                        WebElement elo = mydrv.findElements(By.cssSelector("[title^='Подробности']")).get(i);
 
                         elo.click();
                         mydrv.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
@@ -123,6 +156,9 @@ public class Controller {
                             mydrv.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 
                             int j = 0;
+                            System.out.println("Gesha");
+                            FileUtils.copyFile(((TakesScreenshot) mydrv).getScreenshotAs(OutputType.FILE), new File("d:\\myscore_elo.png"));
+
                             System.out.println("home name = " + elo.getTagName());
                             List<String> hw = new ArrayList<String>();
                             for (String st : mydrv.getWindowHandles()) {
@@ -191,7 +227,7 @@ public class Controller {
 
                 mydrv.close();
 
-                Runtime.getRuntime().exec("taskkill /F /IM phantomjs.exe");
+                Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
 
                 progind.setVisible(false);
 
@@ -224,6 +260,20 @@ public class Controller {
 
     }
 
+    private void waitForLoad(WebDriver driver) {
+        ExpectedCondition<Boolean> pageLoadCondition = new
+                ExpectedCondition<Boolean>() {
+                    public Boolean apply(WebDriver driver) {
+                        return ((JavascriptExecutor)driver).executeScript("return document.readyState").equals("complete");
+                    }
+                };
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(pageLoadCondition);
+    }
+
+
+
+
 
 
      public boolean isElementPresentBycss (String css, WebDriver drv) {
@@ -238,17 +288,13 @@ public class Controller {
 
 
         }
-catch (ElementNotFoundException e) {
+catch (Exception e) {
     loger_.info("Elements is absent");
             System.out.println("Element chka");
             flag =false;
 
 }
-catch (Exception  e)
-{
-    System.out.println(" V error");
-    flag =false;
-}
+
 return flag;
      }
 
@@ -280,7 +326,6 @@ return flag;
     {
         for (int i=0;i<complect.size();i++)
             fill_tb(complect.get(i));
-
     }
 
 
@@ -312,6 +357,18 @@ return flag;
         table.setItems(gbsData);
 
     }
+
+    @FXML
+    private void Click_bypartybt()
+
+    {
+        begin_game.setVisible(true);
+        end_game.setVisible(true);
+        byparty.setVisible(false);
+
+    }
+
+
 
 
 }
